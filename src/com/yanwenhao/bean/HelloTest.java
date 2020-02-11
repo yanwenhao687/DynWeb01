@@ -19,6 +19,9 @@ public class HelloTest {
         list.add(1);
         list.add(1);
         list.add(1);
+        for (Object o : list) {
+            System.out.println("o = " + o);
+        }
         System.out.println("list = " + list);
         int i = 1;
         System.out.println(i);
